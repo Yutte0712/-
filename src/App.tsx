@@ -10,6 +10,7 @@ function App() {
   interface RailPosition {
     railIndex: number;
     progress: number; // 0から1の間の値
+    friction?: number; // 摩擦係数（オプション）
   }
 
   // レールの制御点を定義する型
